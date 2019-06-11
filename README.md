@@ -1,6 +1,6 @@
 # vue-demo
 
-> A Vue.js project
+> 一些 Vue 的小 demo，供学习参考
 
 ## Build Setup
 

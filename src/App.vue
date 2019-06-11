@@ -14,6 +14,7 @@ export default {
 @import url("./assets/styles/reset.less");
 
 .p-title {
+	margin-top: 40px;
 	text-align: center;
 }
 </style>

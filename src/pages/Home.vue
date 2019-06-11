@@ -1,11 +1,11 @@
 <template>
 	<div class="p-home">
 		<img src="../assets/logo.png">
-		<div class="routers">
-			<router-link
-				v-for="(item, index) in list"
-				:key="index" :to="item.url">{{item.name}}</router-link>
-		</div>
+		<ol class="routers">
+			<li class="router-item" v-for="(item, index) in list" :key="index" >
+				<router-link :to="item.url">{{item.name}}</router-link>
+			</li>
+		</ol>
 	</div>
 </template>
 
@@ -15,12 +15,12 @@ export default {
 		return {
 			list: [
 				{
-					name: '测试',
-					url: '/test',
-				},
-				{
 					name: '运动阻尼效果',
 					url: '/friction',
+				},
+				{
+					name: 'canvas绘制函数图形',
+					url: '/canvas',
 				},
 			],
 		};

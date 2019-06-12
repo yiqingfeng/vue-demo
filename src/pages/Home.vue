@@ -22,6 +22,10 @@ export default {
 					name: 'canvas绘制函数图形',
 					url: '/canvas',
 				},
+				{
+					name: '纯CSS上下滚动进度条',
+					url: '/scroll-indicator',
+				},
 			],
 		};
 	},
